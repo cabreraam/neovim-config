@@ -170,6 +170,7 @@ local builtin_plugins = {
             require("which-key").setup()
         end,
     },
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
 }
 
 local exist, custom = pcall(require, "custom")
