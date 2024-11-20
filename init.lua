@@ -51,3 +51,5 @@ local exist, custom = pcall(require, "custom")
 if exist and type(custom) == "table" and custom.configs then
     custom.configs()
 end
+
+vim.cmd.colorscheme "catppuccin"
